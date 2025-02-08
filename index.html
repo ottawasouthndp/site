@@ -2,10 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ottawa South: NDP for Change</title>
+  <title>Stop Doug Ford: Vote NDP</title>
+  <meta property="og:title" content="Stop Doug Ford: Vote NDP">
+  <meta property="og:description" content="With the Ontario Liberals holding just 9 seats, the real fight against Doug Ford’s agenda comes from the NDP, Ontario’s official opposition.">
+  <meta property="og:image" content="seats-wide.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stop Doug Ford: Vote NDP">
+  <meta name="twitter:description" content="With the Ontario Liberals holding just 9 seats, the real fight against Doug Ford’s agenda comes from the NDP, Ontario’s official opposition.">
+  <meta name="twitter:image" content="seats-wide.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    html {
+      font-size: 20px;
+    }
     body {
       margin: 0;
       padding: 0;
@@ -14,12 +25,22 @@
       color: #333;
     }
     .container {
+      width: 100%;
       max-width: 800px;
       margin: 0 auto;
-      padding: 20px;
+      padding: 15px;
       text-align: center;
     }
-    h1, h2 {
+    h1 {
+      margin: 20px 0 10px;
+      padding: 8px 16px;
+      background-color: #fcff00;
+      color: #000;
+      border-radius: 4px;
+      text-align: center;
+      font-size: 1.8em;
+    }
+    h2 {
       margin: 20px 0 10px;
       padding: 8px 16px;
       background-color: #fcff00;
@@ -43,9 +64,10 @@
     }
     .image-wrapper img {
       display: block;
-      width: 50%;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
       height: auto;
-      margin: auto;
       border: 2px solid #CCC;
       border-radius: 4px;
     }
@@ -67,6 +89,11 @@
     .btn:hover {
       background-color: #DD3333;
     }
+    @media (max-width: 480px) {
+      .container {
+        padding: 10px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -78,8 +105,8 @@
         comes from the NDP, Ontario’s official opposition.
       </p>
       <div class="image-wrapper">
-        <img src="seats.jpg" 
-             alt="Seat chart comparing the Ontario NDP with 28 seats to the Liberals with 9 seats">
+        <img src="https://ottawasouthndp.github.io/site/seats.jpg" 
+             alt="Campaign advertisement showing seat comparison and NDP branding">
       </div>
       <h2>Conservatives can't win in Ottawa South</h2>
       <p>
@@ -97,7 +124,7 @@
         skyrocketing demand for food banks in our community.
       </p>
       <p>
-        <strong>People can’t afford a place to live, schools are crumbling, healthcare is in crisis,</strong> and 
+        People can’t afford a place to live, schools are crumbling, healthcare is in crisis, and 
         year after year—Liberal or Conservative—things get worse.
       </p>
       <p>
@@ -110,9 +137,12 @@
       </p>
       <div class="buttons">
         <a class="btn" href="https://act.ontariondp.ca/donate/ots" target="_blank">Donate Now</a>
-        <a class="btn" href="https://volunteer.ndp.ca/ots" target="_blank">Volunteer</a>
+        <a class="btn" href="https://volunteer.ontariondp.ca/ots/" target="_blank">Volunteer</a>
       </div>
     </div>
   </div>
+  <footer style="font-size:0.75em; text-align:center; color:#666; margin-top:20px;">
+    Authorized by the CFO of the Ottawa South ONDP
+  </footer>
 </body>
 </html>
